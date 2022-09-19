@@ -68,3 +68,24 @@ nav a{
     width: 60%;
 
 }
+
+.service h2{
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.service ul{
+    padding: 0;
+    list-style-position: inside;
+}
+
+.service li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.service:not(:last-child){
+    margin-bottom: 40px;
+}
+
+}
