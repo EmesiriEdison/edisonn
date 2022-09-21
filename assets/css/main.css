@@ -1,6 +1,7 @@
 :root{
     --color-primary: #272343;
     --color-secondary: #bae8e8;
+    --border-primary: solid 2px #fff;
 }
 
 .landing-page{
@@ -88,4 +89,56 @@ nav a{
     margin-bottom: 40px;
 }
 
+.purple-footer{
+    
+    background-color: var(--color-primary);
+    color: #000;
+    
+}
+
+.motto {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-direction: row;
+    padding: 60px 0;
+    padding-top: 89px;
+}
+
+.card{
+    padding: 10px 30px;
+    border: var(--border-primary);
+    border-radius: 20px;
+    max-width: 220px;
+    position: relative;
+    color: #fff;
+    text-align: center;
+}
+
+.card h2{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.card p{
+    margin-top: 0;
+}
+
+.card-icon{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 58px;
+    width: 58px;
+    border: var(--border-primary);
+    display: flex;
+    color: #fff;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--color-primary);
+
+}
+
+.card-icon i{
+    margin: auto;
 }
