@@ -142,3 +142,61 @@ nav a{
 .card-icon i{
     margin: auto;
 }
+
+.money{
+    padding: 60px 0;
+    
+}
+
+.money h3{
+    font-size: 40px;
+    color: var(--color-primary);
+    margin-top: 0;
+    text-align: center;
+
+}
+
+.table-container{
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.money table{
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+    
+
+    
+    
+
+}
+
+.money td, .money th{
+    /* padding: 10px 15px; */
+    border: none;
+}
+
+
+
+.money thead{
+    background-color: #f1f1f1;
+}
+.money tbody{
+    background-color: #fafafa;
+}
+
+.money th,
+.money td{
+    padding: 20px 30px;
+}
+
+.money tr:not(:last-child){
+    border-bottom: 2px solid #f1f1f1;
+}
+
+footer{
+    background-color: var(--color-primary);
+    padding: 20px 0;
+    color: #fff;
+}
